@@ -72,10 +72,10 @@
             <!-- Use get here because this application is requesting datas -->
             <!--<form id="searchForm" method="GET" action="http://localhost/PokemonCard/index.php"> -->
             <div class="d-flex justify-content-center">
-                <form id="searchForm" method="GET" action="http://localhost/PokemonCard/index.php">
+                <form id="searchForm" method="GET" action="index.php">
                     <input class="search form-control mr-sm-2" placeholder="eg: Pikachu" name="pokemon"></input>
                 </form>
-                <form id="randomForm" method="GET" action="http://localhost/PokemonCard/random.php">
+                <form id="randomForm" method="GET" action="random.php">
                     <input type="hidden"  id="randomVal" name="randomVal" value="">
                     <button type="button" class="random btn btn-success">Random</button>
                 </form>

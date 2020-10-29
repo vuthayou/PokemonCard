@@ -44,6 +44,6 @@
     $mysql->close();
     $_SESSION['pokemonResult'] = $output;
     echo json_encode($_SESSION['pokemonResult']);
-    header("Location: http://localhost/PokemonCard/index.php");
+    header("Location: index.php");
     exit;
 ?>
